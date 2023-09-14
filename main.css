@@ -23,12 +23,13 @@
 #nav_menu ul li a.current {
     text-decoration: none;
 }
-
+/* Conditional CSS for the hover state */
 a:hover {
     font-style: italic;
     color: black;
 }
 
+/* Adds styling to the logo at the top of page */
 .header-logo {
     width: 35%;
     padding-left: .5em;
@@ -36,20 +37,25 @@ a:hover {
     
 }
 
+/* Adds a color and border to the header section */
 header {
     background-color: blanchedalmond; 
     border-bottom: 2px solid #374151;
 }
+
+/* changes the background color of the entire screen */
 html {
     border: 3px solid #374151 ;
     background-color: aliceblue;
     
 }
 
+/* selects all */
 * {
     margin: 0;
     padding: 0;
 }
+
 
 .h2title {
     font-family: sans-serif;
@@ -66,6 +72,7 @@ html {
     padding: 20px;
 }
 
+/* Adds styling to the footer section */
 footer {
     text-align: left;
     float: none;
@@ -74,13 +81,13 @@ footer {
     border-top: 2px solid #374151;
 }
 
+/* Changes font and adds padding to the paragraphs */
 p {
     font-family: sans-serif;
     padding: .5em .5em .5em .5em;
 }
 
-
-
+/* Floats the links and removes the underline */
 #nav_menu {
     float: right;
     text-decoration: none;
@@ -115,10 +122,12 @@ aside {
     
 }
 */
+/* Changes the font of the list elements */
 aside ul li {
     font-family: sans-serif;
 }
 
+/* changes font size and family for the header in the aside section */
 aside h3 {
     font-size: 140%;
     font-family: sans-serif;
@@ -141,6 +150,8 @@ aside h3 {
     display: flex;
 }
 
+
+/* adds a border shadow and box around the body of the page */
 body {
     background-color: whitesmoke;
     margin: 15px auto;
@@ -150,11 +161,13 @@ body {
     box-shadow: 5px 5px 0 0;
 }
 
+/* adds space around the header */
 .revheader {
     padding: .5em;
     font-family: sans-serif;
 }
 
+/* styles the first review box */
 .iphoner1 {
     border: 2px solid #374151;
     padding: 1em 1em;
@@ -165,23 +178,30 @@ body {
     margin-left: .5em;
 }
 
+/*changes the star colors to black */
 span {
     color: black;
     padding-top: .5em;
 }
 
+/* adds space above the h5 header */
 div h5 {
     padding-top: .5em;
+    font-family: sans-serif;
 }
 
+/* adds space above the h4 headers */
 div h4 {
     padding-top: .5em;
+    font-family: sans-serif;
 }
 
+/* adds space above the review paragraphs */
 div p {
     padding-top: .5em;
 }
 
+/* stlyes the 2nd review box */
 .iphoner2 {
     border: 2px solid #374151;
     padding: 1em 1em;
@@ -194,6 +214,7 @@ div p {
     border-radius: 25px;
 }
 
+/* styles the 3rd review box */
 .iphoner3 {
     border: 2px solid #374151;
     padding: 1em 1em;
@@ -206,7 +227,7 @@ div p {
     border-radius: 25px;
 }
 
-
+/* styles the 4th review box */
 .iphoner4 {
     border: 2px solid #374151;
     padding: 1em 1em;
@@ -219,7 +240,7 @@ div p {
     border-radius: 25px;
 }
 
-
+/* styles the 5th review box */
 .iphoner5 {
     border: 2px solid #374151;
     padding: 1em 1em;
