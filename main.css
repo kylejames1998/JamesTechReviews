@@ -66,7 +66,9 @@ html {
 }
 
 footer {
-    text-align: right;
+    text-align: left;
+    float: none;
+    font-family: sans-serif;
 }
 
 p {
@@ -85,13 +87,14 @@ article {
     width: 50%;
     column-count: 3;
     column-gap: 3px;
-    border: 2px solid #374151;
     margin-top: 1.5em;
+    float: left;
 
 }
 
 article h2 {
     column-span: all;
+    margin-left: 15px;
 }
 
 article img {
@@ -101,3 +104,19 @@ article img {
     margin-top: 15px;
 }
 
+aside {
+    float: right;
+    border: 2px solid #374151;
+    padding: 1.5em 1.5em;
+    background-color: blanchedalmond;
+    
+}
+
+aside ul li {
+    font-family: sans-serif;
+}
+
+aside h3 {
+    font-size: 140%;
+    font-family: sans-serif;
+}
