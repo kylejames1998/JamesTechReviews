@@ -3,8 +3,6 @@
     list-style-type: none;
     padding: 1em 0;
     text-align: center;
-    border-top: 2px solid #616975;
-    border-bottom: 2px solid #616975;
     font-family: sans-serif;  
 }
 
@@ -17,7 +15,8 @@
 /* changes the color of the links in the nav bar */
 #nav_menu ul li a {
     font-weight: bold;
-    color: blue;
+    color: #374151;
+    text-decoration: none;
 }
 
 /* removes the text decoration from the list items */
@@ -25,14 +24,20 @@
     text-decoration: none;
 }
 
+a:hover {
+    font-style: italic;
+    color: black;
+}
+
 .header-logo {
     width: 35%;
+    padding-left: .5em;
     
 }
 
 header {
-    background-color: blanchedalmond;
-    
+    background-color: blanchedalmond; 
+    border-bottom: 2px solid #374151;
 }
 html {
     border: 3px solid #374151 ;
@@ -51,6 +56,13 @@ html {
     padding-bottom: 1.5em;
     padding-top: 1em;
     margin: 10px;
+    border: 2px solid #374151;
+    border-radius: 25px;
+    width: 20%;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 footer {
@@ -59,15 +71,33 @@ footer {
 
 p {
     font-family: sans-serif;
+    padding: .5em .5em .5em .5em;
 }
 
-.amp {
-    width: 50%;
-    padding-bottom: 1.5em;
-    margin: 10px;
-    border: 2px solid #374151; /* Grayish-blue */
-    padding: 20px; /* Adding some space inside the card */
-    margin: 20px; /* Adding some space outside the card */
-    background-color: blanchedalmond; /* Light Gray */
-    border-radius: 25px;
+
+
+#nav_menu {
+    float: right;
+    text-decoration: none;
 }
+
+article {
+    width: 50%;
+    column-count: 3;
+    column-gap: 3px;
+    border: 2px solid #374151;
+    margin-top: 1.5em;
+
+}
+
+article h2 {
+    column-span: all;
+}
+
+article img {
+    border: 2px solid #374151;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
