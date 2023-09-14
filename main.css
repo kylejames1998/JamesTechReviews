@@ -42,7 +42,6 @@ header {
     background-color: #FFEBCD; 
     border-bottom: 2px solid #374151;
     border-radius: 10px;
-    padding-top: none;
 }
 
 /* changes the background color of the entire screen */
@@ -360,3 +359,8 @@ div p {
 .button {
     margin: 5px 5px 5px 5px;
 }
+
+p, h3, h4 {
+    font-family: sans-serif;
+}
+
