@@ -32,6 +32,7 @@ a:hover {
 .header-logo {
     width: 35%;
     padding-left: .5em;
+    padding-top: .5em;
     
 }
 
@@ -69,6 +70,8 @@ footer {
     text-align: left;
     float: none;
     font-family: sans-serif;
+    background-color: #FFEBCD;
+    border-top: 2px solid #374151;
 }
 
 p {
@@ -82,16 +85,16 @@ p {
     float: right;
     text-decoration: none;
 }
-
+/*
 article {
     width: 50%;
     column-count: 3;
     column-gap: 3px;
     margin-top: 1.5em;
-    float: left;
+    
 
 }
-
+*/
 article h2 {
     column-span: all;
     margin-left: 15px;
@@ -103,15 +106,15 @@ article img {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-
+/*
 aside {
-    float: right;
+    
     border: 2px solid #374151;
     padding: 1.5em 1.5em;
     background-color: blanchedalmond;
     
 }
-
+*/
 aside ul li {
     font-family: sans-serif;
 }
@@ -119,4 +122,113 @@ aside ul li {
 aside h3 {
     font-size: 140%;
     font-family: sans-serif;
+}
+
+.adad {
+    width: 33%;
+    display: flex;
+}
+
+.adadd {
+    width: 33%;
+    float: right;
+    display: flex;
+}
+
+.adaddd {
+    float: right;
+    width: 33%;
+    display: flex;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 15px auto;
+    padding: 15px 1.5em;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+}
+
+.revheader {
+    padding: .5em;
+    font-family: sans-serif;
+}
+
+.iphoner1 {
+    border: 2px solid #374151;
+    padding: 1em 1em;
+    background-color: lightcoral;
+    width: 75%;
+    margin-bottom: 1em;
+    border-radius: 25px;
+    margin-left: .5em;
+}
+
+span {
+    color: black;
+    padding-top: .5em;
+}
+
+div h5 {
+    padding-top: .5em;
+}
+
+div h4 {
+    padding-top: .5em;
+}
+
+div p {
+    padding-top: .5em;
+}
+
+.iphoner2 {
+    border: 2px solid #374151;
+    padding: 1em 1em;
+    background-color: lightcoral;
+    border-right: none;
+    margin-bottom: 1em;
+    width: 70%;
+    border-right: 2px solid #374151;
+    margin-left: .5em;
+    border-radius: 25px;
+}
+
+.iphoner3 {
+    border: 2px solid #374151;
+    padding: 1em 1em;
+    background-color: lightcoral;
+    border-right: none;
+    margin-bottom: 1em;
+    width: 75%;
+    border-right: 2px solid #374151;
+    margin-left: .5em;
+    border-radius: 25px;
+}
+
+
+.iphoner4 {
+    border: 2px solid #374151;
+    padding: 1em 1em;
+    background-color: lightcoral;
+    border-right: none;
+    margin-bottom: 1em;
+    width: 70%;
+    border-right: 2px solid #374151;
+    margin-left: .5em;
+    border-radius: 25px;
+}
+
+
+.iphoner5 {
+    border: 2px solid #374151;
+    padding: 1em 1em;
+    background-color: lightcoral;
+    border-right: none;
+    border-bottom: 2px solid #374151;
+    margin-bottom: 1em;
+    width: 75%;
+    border-right: 2px solid #374151;
+    margin-left: .5em;
+    border-radius: 25px;
 }
