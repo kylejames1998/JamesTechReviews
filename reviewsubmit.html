@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>JTR- Home</title>
+    <title>JTR- Review Submission</title>
 </head>
 <body>
     <header>
@@ -12,15 +12,50 @@
         <nav id="nav_menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="iphonereviews.html">Iphone Reviews</a></li>
+                <li><a href="iphonereviews.html">iPhone Reviews</a></li>
                 <li><a href="xboxreviews.html">Xbox Reviews</a></li>
-                <li><a href="playstationreviews.html">Playstation Reviews</a></li>
+                <li><a href="playstationreviews.html">PlayStation Reviews</a></li>
                 <li><a href="reviewsubmit.html">Submit Your Reviews</a></li>
             </ul>
         </nav>
-        <h2>James Tech Reviews - Home</h2>
     </header>
     <main>
+        <h2 class="revheader">James Tech Reviews - Review Submission</h2>
+        <h2 class="revheader">Submit your Reviews Here:</h2>
+        <form action="/submit" method="post" class="forms">
+            <div class="input1">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name">
+            </div>
+
+            <br>
+
+            <div class="input1">
+            <label for="product">Product Being Reviewed:</label>
+            <input type="text" id="product" name="product" placeholder="Enter The Product">
+            </div>
+
+            <br>
+
+            <div class="input1">
+            <label for="star-rating">Star Rating:</label>
+            <input type="number" id="star-rating" name="star-rating" min="1" max="5">
+            </div>
+
+            <br>
+
+            <div class="input1">
+            <label for="review">Review:</label>
+            <textarea id="review" name="review" rows="5" cols="75"></textarea>
+            </div>
+            
+            <br>
+
+            <div class="button">
+                <input type="submit" value="Submit">
+                 <input type="reset" value="Reset">
+            </div>
+        </form>
 
     </main>
     <footer>

@@ -39,21 +39,22 @@ a:hover {
 
 /* Adds a color and border to the header section */
 header {
-    background-color: blanchedalmond; 
+    background-color: #FFEBCD; 
     border-bottom: 2px solid #374151;
+    border-radius: 10px;
+    padding-top: none;
 }
 
 /* changes the background color of the entire screen */
 html {
-    border: 3px solid #374151 ;
     background-color: aliceblue;
     
 }
 
 /* selects all */
 * {
-    margin: 0;
-    padding: 0;
+    
+    
 }
 
 
@@ -66,7 +67,7 @@ html {
     border: 2px solid #374151;
     border-radius: 25px;
     width: 20%;
-    background-color: blanchedalmond;
+    background-color: #FFEBCD;
     text-align: center;
     margin: 20px;
     padding: 20px;
@@ -77,8 +78,10 @@ footer {
     text-align: left;
     float: none;
     font-family: sans-serif;
+    width: 100%;
     background-color: #FFEBCD;
     border-top: 2px solid #374151;
+    border-radius: 10px;
 }
 
 /* Changes font and adds padding to the paragraphs */
@@ -118,7 +121,7 @@ aside {
     
     border: 2px solid #374151;
     padding: 1.5em 1.5em;
-    background-color: blanchedalmond;
+    background-color: #FFEBCD;
     
 }
 */
@@ -133,32 +136,52 @@ aside h3 {
     font-family: sans-serif;
 }
 
-.adad {
-    width: 33%;
+.container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.column_1 {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 33%;
+    height: 100%;
+    padding: 32px;
 }
 
-.adadd {
+.column_2 {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
     width: 33%;
-    float: right;
-    display: flex;
+    height: 100%;
+    padding: 32px;
 }
 
-.adaddd {
-    float: right;
+.column_3 {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
     width: 33%;
-    display: flex;
+    height: 100%;
+    padding: 32px;
+    background-color: #FFEBCD;
+    border-radius: 10px;
 }
 
+.img-align-style {
+    border-radius: 10px;
+}
 
 /* adds a border shadow and box around the body of the page */
 body {
     background-color: whitesmoke;
-    margin: 15px auto;
-    padding: 15px 1.5em;
-    border: 2px solid black;
     border-radius: 25px;
-    box-shadow: 5px 5px 0 0;
 }
 
 /* adds space around the header */
@@ -257,4 +280,83 @@ div p {
     margin-left: .5em;
     border-radius: 25px;
     font-family: sans-serif;
+}
+
+.xboxr1 {
+    border: 2px solid #374151;
+    padding: 1em 1em;
+    background-color: #377625;
+    border-right: none;
+    border-bottom: 2px solid #374151;
+    margin-bottom: 1em;
+    width: 75%;
+    border-right: 2px solid #374151;
+    margin-left: .5em;
+    border-radius: 25px;
+    font-family: sans-serif;
+
+}
+
+.xboxr2 {
+    border: 2px solid #374151;
+    padding: 1em 1em;
+    background-color: #377625;
+    border-right: none;
+    border-bottom: 2px solid #374151;
+    margin-bottom: 1em;
+    width: 70%;
+    border-right: 2px solid #374151;
+    margin-left: .5em;
+    border-radius: 25px;
+    font-family: sans-serif;
+}
+
+.psr1 {
+    border: 2px solid #374151;
+    padding: 1em 1em;
+    background-color: #004197;
+    border-right: none;
+    border-bottom: 2px solid #374151;
+    margin-bottom: 1em;
+    width: 75%;
+    border-right: 2px solid #374151;
+    margin-left: .5em;
+    border-radius: 25px;
+    font-family: sans-serif;
+
+}
+.psr2 {
+    border: 2px solid #374151;
+    padding: 1em 1em;
+    background-color: #004197;
+    border-right: none;
+    border-bottom: 2px solid #374151;
+    margin-bottom: 1em;
+    width: 70%;
+    border-right: 2px solid #374151;
+    margin-left: .5em;
+    border-radius: 25px;
+    font-family: sans-serif;
+}
+
+.input1 {
+    margin: .2em .2em .2em .2em;
+}
+
+
+.forms {
+    border: 2px solid #374151;
+    background-color: blanchedalmond;
+    margin: 10px 10px 10px 10px;
+}
+.imgfloat {
+    float: right;
+}
+
+.as {
+    margin: 0; 
+}
+
+.button {
+    margin: 5px 5px 5px 5px;
 }
