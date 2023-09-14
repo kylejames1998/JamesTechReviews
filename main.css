@@ -176,6 +176,7 @@ body {
     margin-bottom: 1em;
     border-radius: 25px;
     margin-left: .5em;
+    font-family: sans-serif;
 }
 
 /*changes the star colors to black */
@@ -212,6 +213,7 @@ div p {
     border-right: 2px solid #374151;
     margin-left: .5em;
     border-radius: 25px;
+    font-family: sans-serif;
 }
 
 /* styles the 3rd review box */
@@ -225,6 +227,7 @@ div p {
     border-right: 2px solid #374151;
     margin-left: .5em;
     border-radius: 25px;
+    font-family: sans-serif;
 }
 
 /* styles the 4th review box */
@@ -238,6 +241,7 @@ div p {
     border-right: 2px solid #374151;
     margin-left: .5em;
     border-radius: 25px;
+    font-family: sans-serif;
 }
 
 /* styles the 5th review box */
@@ -252,4 +256,5 @@ div p {
     border-right: 2px solid #374151;
     margin-left: .5em;
     border-radius: 25px;
+    font-family: sans-serif;
 }
