@@ -1,0 +1,75 @@
+/* styles a border above and below the nav bar */
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+    border-top: 2px solid #616975;
+    border-bottom: 2px solid #616975;
+    font-family: sans-serif;
+    
+    
+    
+}
+
+/* makes the nav bar horizontal */
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+/* changes the color of the links in the nav bar */
+#nav_menu ul li a {
+    font-weight: bold;
+    color: blue;
+}
+
+/* removes the text decoration from the list items */
+#nav_menu ul li a.current {
+    text-decoration: none;
+}
+
+.header-logo {
+    width: 35%;
+    
+}
+
+header {
+    background-color: blanchedalmond;
+    
+}
+html {
+    border: 3px solid #374151 ;
+    background-color: aliceblue;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h2title {
+    font-family: sans-serif;
+    text-indent: 10px;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+}
+
+footer {
+    text-align: right;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.amp {
+    width: 50%;
+    padding-bottom: 1.5em;
+    margin: 10px;
+    border: 2px solid #374151; /* Grayish-blue */
+    padding: 20px; /* Adding some space inside the card */
+    margin: 20px; /* Adding some space outside the card */
+    background-color: blanchedalmond; /* Light Gray */
+
+}
