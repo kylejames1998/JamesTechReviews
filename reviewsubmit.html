@@ -7,6 +7,7 @@
     <title>JTR- Review Submission</title>
 </head>
 <body>
+    <!--Header section containing logo and nav bar-->
     <header>
         <img src="images/JTRLogo.png" alt="company logo">
         <nav id="nav_menu">
@@ -19,47 +20,51 @@
             </ul>
         </nav>
     </header>
+    <!--Main content of the page-->
     <main>
         <h2 class="revheader">James Tech Reviews - Review Submission</h2>
+        <!--Main header for the page-->
         <h2 class="revheader">Submit your Reviews Here:</h2>
+        <!--Review submission form-->
         <form action="/submit" method="post" class="forms">
+            <!--Container with Name input-->
             <div class="input1">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter Your Name">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name">
             </div>
 
             <br>
-
+            <!--Container with Product input-->
             <div class="input1">
-            <label for="product">Product Being Reviewed:</label>
-            <input type="text" id="product" name="product" placeholder="Enter The Product">
+                <label for="product">Product Being Reviewed:</label>
+                <input type="text" id="product" name="product" placeholder="Enter The Product">
             </div>
 
             <br>
-
+            <!--Container with star ratin number input (1-5)-->
             <div class="input1">
-            <label for="star-rating">Star Rating:</label>
-            <input type="number" id="star-rating" name="star-rating" min="1" max="5">
+                <label for="star-rating">Star Rating:</label>
+                <input type="number" id="star-rating" name="star-rating" min="1" max="5">
             </div>
 
             <br>
-
+            <!--Container with text area for review comments-->
             <div class="input1">
-            <label for="review">Review:</label>
-            <textarea id="review" name="review" rows="5" cols="75"></textarea>
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="5" cols="75"></textarea>
             </div>
             
             <br>
-
+            <!--Container with the submit and reset button-->
             <div class="button">
                 <input type="submit" value="Submit">
                  <input type="reset" value="Reset">
             </div>
         </form>
-
     </main>
+    <!--Footer section-->
     <footer>
-        <p>&copy; Copyright James Tech Reviews | Facebook: JTechReviews X: @JTechReviews</p>
+        <p>&copy; Copyright James Tech Reviews | Facebook: JTechReviews X: @JTechReviews <a href="https://github.com/kylejames1998">GitHub</a></p>
     </footer>
 </body>
 </html>

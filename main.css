@@ -56,7 +56,6 @@ html {
     
 }
 
-
 .h2title {
     font-family: sans-serif;
     text-indent: 10px;
@@ -94,16 +93,8 @@ p {
     float: right;
     text-decoration: none;
 }
-/*
-article {
-    width: 50%;
-    column-count: 3;
-    column-gap: 3px;
-    margin-top: 1.5em;
-    
+ 
 
-}
-*/
 article h2 {
     column-span: all;
     margin-left: 15px;
@@ -115,15 +106,7 @@ article img {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-/*
-aside {
-    
-    border: 2px solid #374151;
-    padding: 1.5em 1.5em;
-    background-color: #FFEBCD;
-    
-}
-*/
+
 /* Changes the font of the list elements */
 aside ul li {
     font-family: sans-serif;
@@ -134,13 +117,15 @@ aside h3 {
     font-size: 140%;
     font-family: sans-serif;
 }
-
+/* containerizes the main element and centers it */
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
+
+/* styles the column 1 on the index page */
 .column_1 {
     flex: 1;
     padding: 10px;
@@ -151,6 +136,7 @@ aside h3 {
     padding: 32px;
 }
 
+/* styles the 2nd column on the index page */
 .column_2 {
     flex: 1;
     padding: 10px;
@@ -161,6 +147,7 @@ aside h3 {
     padding: 32px;
 }
 
+/* styles the 3rd column on the index page */
 .column_3 {
     flex: 1;
     padding: 10px;
@@ -173,6 +160,7 @@ aside h3 {
     border-radius: 10px;
 }
 
+/* adds a border around the image on the index page */
 .img-align-style {
     border-radius: 10px;
 }
@@ -281,6 +269,7 @@ div p {
     font-family: sans-serif;
 }
 
+/* stlyes every other review box on xbox review page */
 .xboxr1 {
     border: 2px solid #374151;
     padding: 1em 1em;
@@ -296,6 +285,7 @@ div p {
 
 }
 
+/* stlyes every other review box on xbox review page */
 .xboxr2 {
     border: 2px solid #374151;
     padding: 1em 1em;
@@ -310,6 +300,7 @@ div p {
     font-family: sans-serif;
 }
 
+/* stlyes every other review box on xbox review page */
 .psr1 {
     border: 2px solid #374151;
     padding: 1em 1em;
@@ -324,6 +315,8 @@ div p {
     font-family: sans-serif;
 
 }
+
+/* stlyes every other review box on xbox review page */
 .psr2 {
     border: 2px solid #374151;
     padding: 1em 1em;
@@ -338,28 +331,34 @@ div p {
     font-family: sans-serif;
 }
 
+/* styles the individual form elements */
 .input1 {
     margin: .2em .2em .2em .2em;
 }
 
-
+/* styles the form with a border and background color */
 .forms {
     border: 2px solid #374151;
     background-color: blanchedalmond;
     margin: 10px 10px 10px 10px;
 }
+
+/* floats the company logos on the review pages */
 .imgfloat {
     float: right;
 }
 
+/* removes the margin from paragraphs */
 .as {
     margin: 0; 
 }
 
+/* adds a margin around the buttons */
 .button {
     margin: 5px 5px 5px 5px;
 }
 
+/* changes font family */
 p, h3, h4 {
     font-family: sans-serif;
 }
